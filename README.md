@@ -28,6 +28,9 @@ componentDidMount() {
 
 ## Install
 This app requires React and Semantic ui with Semantic ui React.  
+
+<br>
+
 https://semantic-ui.com/introduction/getting-started.html  
 
 https://react.semantic-ui.com/introduction  
@@ -35,6 +38,9 @@ https://react.semantic-ui.com/introduction
 https://www.npmjs.com/package/react  
 
 https://www.npmjs.com/package/react-dom  
+
+<br>
+
 After installing dependencies, run a SpaceXplorer local server. From the app directory...
 ```javascript
 npm start
@@ -43,7 +49,7 @@ npm start
 <br>
 
 ## Search
-Using the search bar, search by mission name.
+Using the 'Search Missions' bar, type a name to search by mission name.
 <p align="center"><img width=95% src="https://drive.google.com/uc?id=1M2n8N8uxu58JvCoso3pKxfg4-rr87XD9"></p>
 
 <br>
