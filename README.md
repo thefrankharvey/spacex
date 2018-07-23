@@ -28,10 +28,10 @@ componentDidMount() {
 
 ## Install
 This app requires React and Semantic ui with Semantic ui React.
-https://semantic-ui.com/introduction/getting-started.html
-https://react.semantic-ui.com/introduction
-https://www.npmjs.com/package/react
-https://www.npmjs.com/package/react-dom
+| https://semantic-ui.com/introduction/getting-started.html
+| https://react.semantic-ui.com/introduction
+| https://www.npmjs.com/package/react
+| https://www.npmjs.com/package/react-dom
 After installing dependencies, run a SpaceXplorer local server. From the app directory...
 ```javascript
 npm start
