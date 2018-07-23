@@ -47,14 +47,8 @@ class App extends Component {
     })
   }
 
-// componentDidUpdate() {
-//   this.filteredMissions()
-// }
-
   filteredMissions = () => {
-    console.log("filtering")
     return this.state.filteredCustomers.filter((l) => this.state.filteredRockets.includes(l)).filter((launch) =>
-    // this.state.filteredRockets.filter((launch) =>
         (!this.state.successfulOnly || this.state.successfulOnly && launch.launch_success))
         .filter((launch) => launch.mission_name.toLowerCase().includes(this.state.query.toLowerCase()))
   }
@@ -84,11 +78,8 @@ class App extends Component {
     }
   }
 
-
-
   handleCustomer = (e) => {
     if(e.target.value === 'All Customers') {
-      console.log("WOOOOO BITCHES")
       this.setState({
         filteredCustomers: this.state.launches
       })
@@ -101,7 +92,6 @@ class App extends Component {
         }
       })
     })
-
       this.setState({
         filteredCustomers: differentCustomers
       })
@@ -165,7 +155,6 @@ class App extends Component {
   }
 
   render() {
-    // console.log(this.state.allCustomers)
     if(!this.state.clicked){
       return (
         <div className="App">
